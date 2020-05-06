@@ -4,5 +4,10 @@ A simple script to run any python command (with requirements) without having to 
 
 requirements:
 
-docker
-docker-compose
+* docker
+* docker-compose
+
+steps to run:
+
+git clone https://github.com/alecisec/pythonshell.git
+sh pyshell.sh
