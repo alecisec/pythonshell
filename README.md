@@ -15,3 +15,7 @@ steps to run:
 customising:
 
 * modify the line in the Dockerfile (in either the python2 or python3 folder) including the text "oletools" to add any other dependencies including versions i.e. "RUN echo MySQL-python==1.2.3 WebOb==1.11.0 > ./requirements.txt" 
+
+other information:
+
+* any files in the directory pyshell.sh is run will be copied into the container in which python runs, allowing any scripts required to be transposed into the clean environment and then destroyed after the script completes
