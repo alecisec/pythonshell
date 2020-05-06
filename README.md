@@ -4,8 +4,8 @@ A simple script to run any python command (with specific requirements) without r
 
 requirements:
 
-* docker
-* docker-compose
+* docker - https://docs.docker.com/get-docker/
+* docker-compose - https://docs.docker.com/compose/install/
 
 steps to run:
 
