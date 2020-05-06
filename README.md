@@ -9,5 +9,5 @@ requirements:
 
 steps to run:
 
-git clone https://github.com/alecisec/pythonshell.git
-sh pyshell.sh
+1) git clone https://github.com/alecisec/pythonshell.git
+2) sh pyshell.sh
