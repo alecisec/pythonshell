@@ -11,7 +11,7 @@ steps to run:
 
     git clone https://github.com/alecisec/pythonshell.git
     cd pythonshell
-    **Optional**: Copy files to the current folder
+    **Optional** - copy working files/scripts/whatever to the current folder
     sh pyshell.sh
 
 customising:
