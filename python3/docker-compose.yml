@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  python3shell:
+    image: python3shell
+    restart: unless-stopped
+    hostname: python3shell
+    container_name: python3shell

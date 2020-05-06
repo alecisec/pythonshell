@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  python2shell:
+    image: python2shell
+    restart: unless-stopped
+    hostname: python2shell
+    container_name: python2shell
