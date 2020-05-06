@@ -1,6 +1,6 @@
 # docker pythonshell
 
-A simple script to run any python command (with requirements) without having to install anything on the host machine other than docker-compose
+A simple script to run any python command (with specific requirements) without reconfiguring the host machine's python environment
 
 requirements:
 
@@ -11,3 +11,7 @@ steps to run:
 
     git clone https://github.com/alecisec/pythonshell.git
     sh pyshell.sh
+
+customising:
+
+* modify the line in the Dockerfile (in either the python2 or python3 folder) including the text "oletools" to add any other dependencies including versions i.e. "RUN echo MySQL-python==1.2.3 WebOb==1.11.0 > ./requirements.txt" 
